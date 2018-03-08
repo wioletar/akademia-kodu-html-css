@@ -1,0 +1,17 @@
+body {
+    font-family: Arial; 
+    font-size: 12px; 
+    background: grey;
+}
+header {
+    background-color:rgb(172, 146, 231);
+}
+header nav a {
+    color: white;
+    background: rgb(240, 142, 158);
+    padding: 5px;
+}
+main {
+    background: white; 
+    padding: 5px;
+}
