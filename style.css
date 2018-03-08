@@ -5,6 +5,9 @@ body {
 }
 header {
     background-color:rgb(172, 146, 231);
+    background-image: url('images/background.jpeg');
+    background-position: center;
+
 }
 header h1{
     text-align: center;

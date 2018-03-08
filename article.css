@@ -1,3 +1,16 @@
 p.intro{
     font-size: 15px;
 }
+
+main section article figure img{
+    display: block;
+    margin: auto;
+}
+main section article figure {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
