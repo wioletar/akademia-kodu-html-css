@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Document</title>
+    <style>
+  /*   *{
+         box-sizing: border-box; /* trzyma właściwości rozmiaru dla kazdego diva, kiedy mamy padingi, bordery boxów */
+  /*   } */
+     .displays-wrapper{
+         position: relative; /* wyznacznik dla swoich dzieci */
+     /*    background: blue; */
+     }
+    /* .displays-wrapper div{
+         background: yellow;
+     } */
+     /* 100% szerokości */
+     .displays-block{
+         display: block;
+         width: 50%;
+     }
+     /* dopasowuje pasek do tekstu */
+     .displays-inline-block{
+         display: inline-block;
+         width: 50%;
+         float: left;
+     }
+     .displays-inline{
+         display: inline;
+     }
+     .displays-none{
+         display: none;
+     } 
+     .yellow {
+         background: yellow;
+     }
+     .grey{
+         background: grey;
+     }
+     .blue{
+         background: blue;
+     }
+     .orange {
+         background: orange;
+     }
+     .margin-top {
+            margin-top: 5px;
+        }
+    </style>
+
+</head>
+
+<body> 
+
+        <div class="displays-wrapper">              
+             <div class="displays-inline-block grey">Inline block 1</div>
+             <div class="displays-inline-block yellow">Inline block 2</div>
+        </div>
+        <div class="displays-wrapper">              
+                <div class="displays-inline-block blue">Inline block 3</div>
+                <div class="displays-inline-block grey">Inline block 4</div>
+           </div>
+       
+           <div class="displays-wrapper">              
+                <div class="displays-none">hello none</div>
+           </div>
+    
+           <div class="displays-wrapper">              
+                <div class="displays-inline-block orange">hello inline</div>
+                <div class="displays-inline margin-top orange">hello inline</div>
+           </div>
+
+</body>
+</html>

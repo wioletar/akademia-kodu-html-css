@@ -4,14 +4,37 @@
         <meta charset="UTF-8"> <!-- -->
         <title>MójBlog.pl</title>
         <link rel="stylesheet" href="style.css">
+    
+    <style>
+    .article{
+        display: inline-block;
+        position: relative;
+    }
+    .counter{
+        position: absolute;  
+        width: 20px;
+        background: grey;
+        padding: 5px;      
+        margin-top: -15px; 
+        margin-left: -10px; 
+        top: 0;
+        left: 100%;
+        font-size: 10px;
+    }
+    </style>
     </head>
 
     <body>
         
         <header>
             <h1>AutoBlog</h1> <!-- tylko jeden h1 na jednej stronie-->
-            <nav>
-                <a href="index.html">Strona główna</a>
+            <nav>                  
+                <a href="index.html" class="article"> 
+                        Strona główna
+                        <div class="counter">
+                            2
+                        </div>
+                </a>                                   
                 <a href="wspolpraca.html">Współpraca</a>
                 <a href="kontakt.html">Kontakt</a>
             </nav>

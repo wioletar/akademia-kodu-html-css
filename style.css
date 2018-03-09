@@ -19,6 +19,8 @@ header nav a {
     color: white;
     background: rgb(240, 142, 158);
     padding: 5px; 
+    margin: 0 10px;
+  
 }
 main {
     background: white; 
@@ -44,3 +46,4 @@ background: palevioletred;
 main section img{
        width: 300px;  
 }
+
