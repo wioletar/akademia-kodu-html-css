@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Counter</title>
+    <style>
+        body{
+            text-align: center;
+            height: 1500px;
+        }
+     .box{
+         text-align: center;         
+         position: relative;
+         width: 80px;
+         border: 2px solid black;
+         padding: 10px;
+         margin-top: 200px;
+         margin-left: 200px;
+     }
+    .box .counter{
+        width: 20px;
+        height: 20px;
+        background: red;
+        padding: 5px;
+        color: white;  
+        position: absolute;      
+        margin-top: -15px; 
+        margin-left: -15px; 
+      /*  position: fixed; */
+        top: 0;
+        left: 100%;
+      /*  opacity: 0.5; */
+    }
+    </style>
+
+</head>
+
+<body> 
+
+    <div class="box">
+        Blog
+        <div class="counter">
+            12
+        </div>
+
+    </div>
+</body>
+</html>
