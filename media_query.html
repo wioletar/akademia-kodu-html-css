@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .box{
+        background: blueviolet;
+        height: 100px;
+    }
+@media only screen and (max-width: 1024px){
+    .box{
+        background: orange;
+    }
+}
+@media only screen and (max-width: 640px){
+    .box{
+        background: rgb(49, 25, 185);
+    }
+}
+@media only screen and (max-width: 320px){
+    .box{
+        background: rgba(212, 61, 61, 0.856);
+    }
+}
+
+.child{
+        display: block; 
+        float: left;
+         width: 50%;
+         height: 50px;
+}
+
+.green {
+    background: olivedrab;
+}
+.blue {
+    background: blueviolet;
+}
+
+@media only screen and (max-width: 1024px){
+    .child{
+        width: 100%;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+            <div class="child green">1</div>
+             <div class="child blue">2</div>           
+    </div>
+    
+</body>
+</html>

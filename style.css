@@ -19,16 +19,17 @@ header nav a {
     color: white;
     background: rgb(240, 142, 158);
     padding: 5px; 
-    margin: 0 10px;
+    margin: 0 10px; /* marginesy miedzy bloczkami menu */
   
 }
 main {
     background: white; 
     padding: 5px;
 }
-main section{
+ main section{
     overflow: hidden;
-}
+} 
+
 .background-grey{
     background: rgb(189, 187, 187); 
 }
@@ -44,6 +45,7 @@ background: palevioletred;
 }
 
 main section img{
-       width: 300px;  
+       width: 300px;
+       float: left;  
 }
 
